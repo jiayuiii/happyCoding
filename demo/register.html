@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="./lib/normalize.css">
+    <link rel="stylesheet" href="./font/iconfont/iconfont.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div class="regfm">
+        <div class="reg-hd">
+            <h2>用户注册</h2>
+        </div>
+        <div class="reg-bd">
+            <form >
+                <ul>
+                    <li>
+                        <div class="fm-txt">
+                            <div class="fm-ico">
+                                <i class="iconfont icon-yonghu"></i>
+                            </div>
+                            <input class="fm-ipt" type="text" id="username" value="" placeholder="请输入用户名">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="fm-txt">
+                            <div class="fm-ico">
+                                <i class="iconfont icon-mima"></i>
+                            </div>
+                            <input class="fm-txt fm-codetxt" type="password" id="password" value="" placeholder="请输入密码">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="fm-txt">
+                            <div class="fm-ico">
+                                <i class="iconfont icon-shouji"></i>
+                            </div>
+                            <input class="fm-txt fm-codetxt" type="text" id="phone" value="" placeholder="请输入手机号码">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="fm-txt">
+                            <div class="fm-ico">
+                                <i class="iconfont icon-nb-"></i>
+                            </div>
+                            <input class="fm-txt fm-codetxt" type="text" id="email" value="" placeholder="请输入邮箱地址">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="fm-txt select-wrap">
+                            <div class="fm-ico">
+                                <i class="iconfont icon-17"></i>
+                            </div>
+                            <select class="type" id="type" >
+                                <option value="0">普通会员</option>
+                                <option value="1">vip会员</option>
+                                <option value="2">管理员</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li>
+                        <input class="btn" id="register-btn" value="注 册">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <script src="./lib/jquery-3.3.1.js"></script>
+    <script src="./js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+*
+    margin: 0
+    padding: 0
+    outline: 0
+    list-style: none
+body
+    background-color: #dddddd
+    margin-top: 100px
+    box-sizing: border-box
+.regfm
+    margin: 0 auto
+    padding: 40px 52px 52px
+    width: 420px
+    background: #fff
+    -webkit-border-radius: 5px
+    -moz-border-radius: 5px
+    border-radius: 5px
+    @media screen and (max-width: 1280px)
+        width: auto
+        margin: 20px 20px 30px
+        padding: 20px
+        height: 435px
+        background-color: #fff
+        border-radius: 10px
+    .reg-hd
+        font-size: 22px
+        margin-bottom: 20px
+        h2
+            font-size: 100%
+            font-weight: normal
+            text-align: center
+            color: #484848
+    .reg-bd
+        form
+            ul
+                li
+                    margin-bottom: 12px
+                    text-align: center
+                    &>div
+                        display: flex
+                        border-color: #d2d2d2
+                        width: auto
+                        height: 45px
+                        line-height: 50px
+                        border: 1px solid #e5e5e5
+                        border-radius: 5px
+                        overflow: hidden
+                        position: relative
+                        @media screen and (max-width: 1280px)
+                            width: auto
+                            height: 45px
+                        .fm-ico
+                        
+                            float: left
+                            width: 75px
+                            height: 100%
+                            text-align: center
+                            color: #6299ff
+                            vertical-align: middle
+                            i
+                                font-size: 20px
+                        input
+                            flex: 1
+                            margin-left: 15px
+                            float: left
+                            border: none
+                            height: 100%
+                            font-family: "微软雅黑"
+                            -webkit-transition: all .3s
+                            -moz-transition: all .3s
+                            transition: all .3s
+                            line-height: 1.75
+                            @media screen and (max-width: 1280px)
+                                margin-left: 2px
+                                font-size: 12px
+                            &:focus
+                                text-indent: 1em
+                        select.type
+                            flex: 1
+                            margin-left: 15px
+                            float: left
+                            outline-color: #e5e5e5
+                            width: 320px
+                            border: none
+                            height: 100%
+                            font-family: "微软雅黑"
+                            -webkit-transition: all .3s
+                            -moz-transition: all .3s
+                            transition: all .3s
+                            line-height: 1.75  
+                            @media screen and (max-width: 1280px)
+                                width: 67%
+                                margin-left: 2px
+                                font-size: 12px
+                            option
+                                border: 1px solid #e5e5e5
+                                background-color: #fff
+                                &:selected
+                                    background-color: #000
+
+                    &>a
+                        margin-bottom: 30px
+                        height: 64px
+                        line-height: 64px
+                        font-size: 18px
+                        overflow: hidden
+                        color: #acb4c4
+                        float: right
+                    &::after
+                        content: ""
+                        display: block
+                        clear: both
+                    input.btn
+                        width: 410px
+                        line-height: 60px
+                        text-align: center
+                        background-image: linear-gradient(#6299ff, #6299ff), linear-gradient(#6e94ff, #6e94ff)
+                        background-blend-mode: normal,normal
+                        box-shadow: 0px 20px 30px 0px rgba(62, 123, 248, 0.3)
+                        border-radius: 5px
+                        border: none
+                        font-size: 24px
+                        color: #fff
+                        cursor: pointer
+                        -webkit-transition: all .3s
+                        -moz-transition: all .3s
+                        transition: all .3s
+                        opacity: .8
+                        @media screen and (max-width: 1280px)
+                            width: 100%
+                            /* margin-top: 20px */
+                            line-height: 45px
+                            height: 45px
+                            font-size: 18px
+                            opacity: 1
+
+    .reg-ft
+        margin-top: 53px
+        font-size: 16px
+        color: #8d95a4
+        text-align: center
+        a
+            color: #6e94ff
+.manage
+    @media screen and (max-width: 1280px)
+        height: 235px
+        padding: 20px
+.tip
+    position: absolute
+    top: 50%
+    left: 50%
+    margin-top: -25px
+    margin-left: -6vw
+    height: 50px
+    width: 12vw
+    border-radius: 10px
+    color: #ffffff
+    background-color: rgba(155,155,155,0.7)
+    text-align: center
+    line-height: 50px
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+    @media screen and (max-width: 1000px)
+        margin-left: -10vw
+        width: 20vw
+    @media screen and (max-width: 600px)
+        margin-left: -15vw
+        width: 30vw
+    @media screen and (max-width: 400px)
+        margin-left: -15vw
+        width: 40vw
